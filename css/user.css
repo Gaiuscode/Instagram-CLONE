@@ -1,0 +1,61 @@
+body {
+    padding: 0 10vw 100px;
+}
+
+.user-info{
+    margin-top: 100px;
+    width: 100%;
+    align-items: center;
+    gap: 50px;
+}
+
+.user-dp{
+    width: 150px;
+    height: 150px;
+}
+
+.user-info .username{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: .9rem;
+    color: rgb(134, 134, 134);
+}
+
+.website-link{
+    font-size: 0.9rem;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #64B1f8;
+    font-weight: 500;
+}
+.number-card{
+    font-size: 4rem;
+    line-height: 1rem;
+}
+.number-card span{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 30px;
+    text-transform: capitalize;
+    display: block;
+}
+
+.btn-container
+{
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+}
+
+.btn-container .btn{
+    width: 100px;
+    margin: 0;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.edit-btn, .logout-btn{
+    background: #fff;
+    border: 1px solid #999;
+}
