@@ -104,7 +104,8 @@ body {
     opacity: 0;
     transition: .5s;
 }
-.post-container .post:hover .likes{
+
+.post-container .post:hover .likes {
     opacity: 1;
 }
 
@@ -112,6 +113,39 @@ body {
     width: 40px;
     height: 40px;
 }
-.likes .likes-count{
+
+.likes .likes-count {
     color: #fff;
+}
+
+.suggestion-slider {
+    width: 100%;
+    position: relative;
+}
+
+.suggestion-container {
+    position: relative;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.suggestion-container::-webkit-scrollbar {
+    display: none;
+}
+
+.nxt-arrow, .pre-arrow{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.nxt-arrow{
+    right: -50px;
+}
+.pre-arrow{
+    left: -50px;
+    transform: rotate(180deg);
 }
