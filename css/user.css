@@ -59,3 +59,22 @@ body {
     background: #fff;
     border: 1px solid #999;
 }
+
+
+.posts-container
+{
+    margin: 40px 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+}
+.post-container .post{
+    width: 100%;
+    border: none;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 0;
+    position: relative;
+    padding: 0;
+}
